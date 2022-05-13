@@ -20,6 +20,8 @@
 		D0562A76282ED3A700872221 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0562A75282ED3A700872221 /* CircleButtonView.swift */; };
 		D0562A78282ED5D800872221 /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0562A77282ED5D800872221 /* CircleButtonAnimationView.swift */; };
 		D0562A7B282ED98800872221 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0562A7A282ED98800872221 /* Coin.swift */; };
+		D0562A7D282EE0A500872221 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0562A7C282EE0A500872221 /* CoinRowView.swift */; };
+		D0562A7E282EE18600872221 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0562A69282EB50200872221 /* PreviewProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,7 @@
 		D0562A75282ED3A700872221 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 		D0562A77282ED5D800872221 /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
 		D0562A7A282ED98800872221 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		D0562A7C282EE0A500872221 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				D0562A62282EB48900872221 /* HomeView.swift */,
+				D0562A7C282EE0A500872221 /* CoinRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -230,6 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0562A7D282EE0A500872221 /* CoinRowView.swift in Sources */,
 				D0562A63282EB48900872221 /* HomeView.swift in Sources */,
 				D0562A70282EB50200872221 /* UIApplication.swift in Sources */,
 				D0562A71282EB50200872221 /* Double.swift in Sources */,
@@ -241,6 +246,7 @@
 				D0562A78282ED5D800872221 /* CircleButtonAnimationView.swift in Sources */,
 				D0562A6E282EB50200872221 /* Color.swift in Sources */,
 				D0562A6D282EB50200872221 /* Date.swift in Sources */,
+				D0562A7E282EE18600872221 /* PreviewProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
