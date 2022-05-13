@@ -9,16 +9,33 @@
 /* Begin PBXBuildFile section */
 		D0562A4D282EB2D100872221 /* BagHoldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0562A4C282EB2D100872221 /* BagHoldApp.swift */; };
 		D0562A4F282EB2D100872221 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0562A4E282EB2D100872221 /* ContentView.swift */; };
-		D0562A51282EB2D200872221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0562A50282EB2D200872221 /* Assets.xcassets */; };
 		D0562A54282EB2D200872221 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0562A53282EB2D200872221 /* Preview Assets.xcassets */; };
+		D0562A5B282EB36900872221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0562A5A282EB36900872221 /* Assets.xcassets */; };
+		D0562A63282EB48900872221 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0562A62282EB48900872221 /* HomeView.swift */; };
+		D0562A6D282EB50200872221 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0562A67282EB50200872221 /* Date.swift */; };
+		D0562A6E282EB50200872221 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0562A68282EB50200872221 /* Color.swift */; };
+		D0562A70282EB50200872221 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0562A6A282EB50200872221 /* UIApplication.swift */; };
+		D0562A71282EB50200872221 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0562A6B282EB50200872221 /* Double.swift */; };
+		D0562A72282EB50200872221 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0562A6C282EB50200872221 /* String.swift */; };
+		D0562A76282ED3A700872221 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0562A75282ED3A700872221 /* CircleButtonView.swift */; };
+		D0562A78282ED5D800872221 /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0562A77282ED5D800872221 /* CircleButtonAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D0562A49282EB2D100872221 /* BagHold.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BagHold.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0562A4C282EB2D100872221 /* BagHoldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagHoldApp.swift; sourceTree = "<group>"; };
 		D0562A4E282EB2D100872221 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D0562A50282EB2D200872221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0562A53282EB2D200872221 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D0562A5A282EB36900872221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../../Downloads/Resources/Assets.xcassets; sourceTree = "<group>"; };
+		D0562A62282EB48900872221 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D0562A67282EB50200872221 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		D0562A68282EB50200872221 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		D0562A69282EB50200872221 /* PreviewProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
+		D0562A6A282EB50200872221 /* UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		D0562A6B282EB50200872221 /* Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		D0562A6C282EB50200872221 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		D0562A75282ED3A700872221 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
+		D0562A77282ED5D800872221 /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +68,11 @@
 		D0562A4B282EB2D100872221 /* BagHold */ = {
 			isa = PBXGroup;
 			children = (
+				D0562A66282EB4F500872221 /* Extensions */,
+				D0562A5E282EB45800872221 /* Core */,
 				D0562A4C282EB2D100872221 /* BagHoldApp.swift */,
 				D0562A4E282EB2D100872221 /* ContentView.swift */,
-				D0562A50282EB2D200872221 /* Assets.xcassets */,
+				D0562A5A282EB36900872221 /* Assets.xcassets */,
 				D0562A52282EB2D200872221 /* Preview Content */,
 			);
 			path = BagHold;
@@ -65,6 +84,69 @@
 				D0562A53282EB2D200872221 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D0562A5E282EB45800872221 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D0562A5F282EB46200872221 /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D0562A5F282EB46200872221 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D0562A73282ED38300872221 /* Components */,
+				D0562A61282EB47700872221 /* ViewModels */,
+				D0562A60282EB47300872221 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D0562A60282EB47300872221 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D0562A62282EB48900872221 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D0562A61282EB47700872221 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D0562A66282EB4F500872221 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D0562A68282EB50200872221 /* Color.swift */,
+				D0562A67282EB50200872221 /* Date.swift */,
+				D0562A6B282EB50200872221 /* Double.swift */,
+				D0562A69282EB50200872221 /* PreviewProvider.swift */,
+				D0562A6C282EB50200872221 /* String.swift */,
+				D0562A6A282EB50200872221 /* UIApplication.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D0562A73282ED38300872221 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D0562A74282ED39A00872221 /* CircleButton */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D0562A74282ED39A00872221 /* CircleButton */ = {
+			isa = PBXGroup;
+			children = (
+				D0562A75282ED3A700872221 /* CircleButtonView.swift */,
+				D0562A77282ED5D800872221 /* CircleButtonAnimationView.swift */,
+			);
+			path = CircleButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0562A54282EB2D200872221 /* Preview Assets.xcassets in Resources */,
-				D0562A51282EB2D200872221 /* Assets.xcassets in Resources */,
+				D0562A5B282EB36900872221 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +219,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0562A63282EB48900872221 /* HomeView.swift in Sources */,
+				D0562A70282EB50200872221 /* UIApplication.swift in Sources */,
+				D0562A71282EB50200872221 /* Double.swift in Sources */,
+				D0562A72282EB50200872221 /* String.swift in Sources */,
 				D0562A4F282EB2D100872221 /* ContentView.swift in Sources */,
 				D0562A4D282EB2D100872221 /* BagHoldApp.swift in Sources */,
+				D0562A76282ED3A700872221 /* CircleButtonView.swift in Sources */,
+				D0562A78282ED5D800872221 /* CircleButtonAnimationView.swift in Sources */,
+				D0562A6E282EB50200872221 /* Color.swift in Sources */,
+				D0562A6D282EB50200872221 /* Date.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +363,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -302,6 +393,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
